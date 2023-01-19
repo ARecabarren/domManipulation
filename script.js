@@ -26,3 +26,8 @@ container.appendChild(redParagraph)
 container.appendChild(head3)
 container.appendChild(styledDiv)
 
+button = document.querySelector('button')
+button.addEventListener('click',function(e){
+    console.log(e.target.style.background = 'blue')
+})
+
